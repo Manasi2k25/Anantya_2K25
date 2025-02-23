@@ -321,7 +321,6 @@
 // };
 
 // export default Homepage;
-
 // LATEST CODE
 
 
@@ -334,11 +333,10 @@ import "./Slider.css";
 // import footer from "../footer/footer";
 import 'https://unpkg.com/shader-doodle';
 
-
 const Homepage = () => {
   const sectionsRef = useRef([]);
   const [currentSlide, setCurrentSlide] = useState(1);
-    const [timeLeft, setTimeLeft] = useState({ days: "00", hours: "00", minutes: "00", seconds: "00" });
+  const [timeLeft, setTimeLeft] = useState({ days: "00", hours: "00", minutes: "00", seconds: "00" });
 
   const images = [
     "../../../../public/bg_3.jpg",
@@ -356,9 +354,6 @@ const Homepage = () => {
     "Join us to experience the Multiverse",   
     "Threat Analysis"
   ];
-
-
-
 
   useEffect(() => {
     // const targetTime = new Date("Oct 10, 2025 14:30:00").getTime();
